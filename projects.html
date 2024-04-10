@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <script src="script.js" defer></script>
     <style>html { height: 100%;}</style>
     <title>Yurii's website</title>
 </head>
@@ -30,13 +30,30 @@
             <section>
                 <h1>Projects</h1>
             </section>
-            <section>
+            <section class="projects">
                 <ul>
-                    <li><h2>Project 1</h2></li>
-                    <li><h2>Project 2</h2></li>
-                    <li><h2>Project 3</h2></li>
-                    <li><h2>Project 4</h2></li>
-                    <li><h2>Project 5</h2></li>
+                    <li id="project-tea">
+                        <a href="https://github.com/Yurii9132/teaCosy" target="_blank">Tea Cosy</a>
+                        <p class="info" id="info-tea">Landing page of the tea store "Tea Cosy"
+                            <br><span>Technologies:</span> HTML, CSS, Flexbox
+                        </p>
+                        
+                    </li>
+                    <li id="project-system">
+                        <a href="https://github.com/Yurii9132/Financial-management-system" target="_blank">Financial management system</a>
+                        <p class="info" id="info-system">
+                           Windows application for managing personal finances. Purpose: accounting of income and expenses, planning a budget.
+                           <br><span>Technologies:</span> C++, Windows Forms
+                        </p>
+                    </li>
+                    <li id="project-oil">
+                        <a href="https://github.com/Yurii9132/BestOil" target="_blank">Best Oil</a>
+                        <p class="info" id="info-oil">Windows application for a gas station. Purpose: accounting sales of fuel and goods in a mini cafe.
+                            <br><span>Technologies:</span> C#, Windows Forms
+                        </p>
+                    </li>
+                    <!-- <li><h2>Project 4</h2></li> -->
+                    <!-- <li><h2>Project 5</h2></li> -->
                 </ul>
             </section>
         </div>

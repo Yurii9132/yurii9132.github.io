@@ -43,20 +43,30 @@ header h2 {
 nav {
     flex: 1 1;
     margin: 0 1rem;
-    
 }
 
-header ul {
+header ul {    
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    align-items: center;
+    /* justify-content: space-around; */
 }
 
 header ul li {
+    display: flex;
+    justify-content: center;
+    flex: 1 1;
     font-size: 1.4rem;
     font-weight: 600;
 }
 
+header ul li:hover {
+    font-size: 1.5rem;
+}
+  
+header ul li:active {
+    font-size: 1.3rem;
+}
 
 .btn {
   appearance: none;
@@ -98,7 +108,7 @@ header ul li {
 }
 
 
-/* main content */
+/*index main content */
 
 h1 {
     font-size: 3.5rem;
@@ -116,8 +126,6 @@ main {
 }
 
 .container {
-    /* width: 100%; */
-    /* min-width: 45%; */
     flex: 1 1;
     display: flex;
     flex-direction: column;
@@ -147,16 +155,6 @@ main {
     padding-left: 3rem;
     margin-left: 2rem;
 }
-
-/* .container section {
-    width: 75%;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-} */
 
 figure {
     width: 75%;
@@ -196,7 +194,7 @@ footer {
     .logo {
         display: none;
     }
-    html {
+    html, body{
         height: auto;    
       }
     h1 {
@@ -272,3 +270,24 @@ footer {
     font-size: 1.2rem;
     margin: 1rem 0.3rem;
 }
+
+
+/* projects */
+.info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    line-height: 1.6;
+}
+
+.info span {
+    font-weight: 550;
+    font-size: 1.25rem;
+}
+
+.projects ul a  {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+/* contact */
