@@ -1,66 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Croissant+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Redressed&family=Croissant+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
-    <style>html { height: 100%;}</style>
+    <style>
+      html {
+        height: 100%;
+      }
+    </style>
     <title>Yurii's website</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h2 class="logo">Yurii Ruban</h2>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="#">Projects</a></li>
-            </ul>
-        </nav>
-        <button class="btn">
-            <a href="./contact.html">Get in touch &rarr;</a>
-        </button>
+      <h2 class="logo">Yurii Ruban</h2>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <button class="btn">
+        <a href="./contact.html">Get in touch &rarr;</a>
+      </button>
     </header>
 
     <main>
-        <div class="container left">          
-            <section>
-                <h1>Projects</h1>
-            </section>
-            <section class="projects">
-                <ul>
-                    <li id="project-tea">
-                        <a href="https://github.com/Yurii9132/teaCosy" target="_blank">Tea Cosy</a>
-                        <p class="info" id="info-tea">Landing page of the tea store "Tea Cosy"
-                            <br><span>Technologies:</span> HTML, CSS, Flexbox
-                        </p>
-                        
-                    </li>
-                    <li id="project-system">
-                        <a href="https://github.com/Yurii9132/Financial-management-system" target="_blank">Financial management system</a>
-                        <p class="info" id="info-system">
-                           Windows application for managing personal finances. Purpose: accounting of income and expenses, planning a budget.
-                           <br><span>Technologies:</span> C++, Windows Forms
-                        </p>
-                    </li>
-                    <li id="project-oil">
-                        <a href="https://github.com/Yurii9132/BestOil" target="_blank">Best Oil</a>
-                        <p class="info" id="info-oil">Windows application for a gas station. Purpose: accounting sales of fuel and goods in a mini cafe.
-                            <br><span>Technologies:</span> C#, Windows Forms
-                        </p>
-                    </li>
-                    <!-- <li><h2>Project 4</h2></li> -->
-                    <!-- <li><h2>Project 5</h2></li> -->
-                </ul>
-            </section>
-        </div>
+      <div class="container left">
+        <section>
+          <h1>Projects</h1>
+        </section>
+        <section class="projects">
+          <ul>
+            <li id="project-tea">
+              <a href="https://github.com/Yurii9132/teaCosy" target="_blank"
+                >Tea Cosy</a
+              >
+              <p class="info" id="info-tea">
+                Landing page of the tea store "Tea Cosy" <br /><span
+                  >Technologies:</span
+                >
+                HTML, CSS
+              </p>
+            </li>
+            <li id="reddit-lence">
+              <a href="https://reddit-lence.netlify.app/" target="_blank"
+                >Reddit Lence</a
+              >
+              <p class="info" id="reddit-lence-info">
+                This application is designed to interact with the Reddit API to
+                fetch and display posts based on user-defined criteria.
+                <br />
+                <span>Technologies:</span>
+                HTML, CSS, ReactJS, Redux
+                <a href="https://github.com/Yurii9132/reddit-lence" target="_blank"
+                  >GitHub</a
+                >
+              </p>
+            </li>
+            <li id="project-oil">
+              <a href="https://github.com/Yurii9132/BestOil" target="_blank"
+                >Best Oil</a
+              >
+              <p class="info" id="info-oil">
+                Windows application for a gas station. Purpose: accounting sales
+                of fuel and goods in a mini cafe.
+                <br />
+                <span>Technologies:</span>
+                C#, Windows Forms
+              </p>
+            </li>
+            <!-- <li><h2>Project 4</h2></li> -->
+            <!-- <li><h2>Project 5</h2></li> -->
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer>
-        <p>&copy; 2021 Yurii's website</p>
+      <p>&copy; 2021 Yurii's website</p>
     </footer>
-</body>
+  </body>
 </html>
